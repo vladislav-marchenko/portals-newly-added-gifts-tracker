@@ -6,8 +6,10 @@ authors = [
     {name = "Your Name",email = "you@example.com"}
 ]
 readme = "README.md"
-requires-python = ">=3.13"
+requires-python = ">=3.8,<4.0"
 dependencies = [
+    "pyrogram (>=2.0.106,<3.0.0)",
+    "requests (>=2.32.4,<3.0.0)"
 ]
 
 [tool.poetry]
